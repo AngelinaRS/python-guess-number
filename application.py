@@ -1,3 +1,4 @@
-# Aqui escribe tu codigo
+import random #This module will generate a random number
 
-print "Hello World"
+RANDOM_NUMBER = random.randint(1,20) #This variable saves the number generated
+print RANDOM_NUMBER
