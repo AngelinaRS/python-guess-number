@@ -9,4 +9,7 @@ if PROPOSAL_OF_THE_USER > RANDOM_NUMBER: #This condition compares if the proposa
 	print "You guessed too high, please try again"
 
 elif PROPOSAL_OF_THE_USER < RANDOM_NUMBER: #This condition compares if the proposal of the user is lower than the generated number
-	print "You guessed too low, please try again" 
+	print "You guessed too low, please try again"
+
+elif PROPOSAL_OF_THE_USER == RANDOM_NUMBER: #This condition checks if the user guesses the number
+	print "You win!"
